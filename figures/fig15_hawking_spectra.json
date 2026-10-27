@@ -1,0 +1,16 @@
+{
+  "name": "fig15_hawking_spectra",
+  "png": "fig15_hawking_spectra.png",
+  "pdf": "fig15_hawking_spectra.pdf",
+  "generating_script": "experiments/04_hawking_spectra.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "masses_kg": [
+      100000000000.0,
+      300000000000.0,
+      1000000000000.0
+    ]
+  },
+  "caption": "(a) Bose-Einstein and Fermi-Dirac occupation as functions of x = hbar omega/(k_B T_H). (b) Photon-only blackbody spectra with the horizon area for three masses; the peak sits near x = 2.82 (Wien, in terms of dP/domega) and moves to lower energy as M grows. A thermal curve illustrates the spectrum; it is not a derivation of Hawking radiation (see docs/hawking_radiation.md), and greybody factors (Figs 18-20) modify it."
+}

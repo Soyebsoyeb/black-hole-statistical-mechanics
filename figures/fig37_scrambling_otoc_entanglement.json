@@ -1,0 +1,17 @@
+{
+  "name": "fig37_scrambling_otoc_entanglement",
+  "png": "fig37_scrambling_otoc_entanglement.png",
+  "pdf": "fig37_scrambling_otoc_entanglement.pdf",
+  "generating_script": "experiments/15_scrambling.py",
+  "package_version": "0.1.0",
+  "seed": 20261022,
+  "parameters": {
+    "n_otoc": 8,
+    "n_ent": 12,
+    "realizations": [
+      24,
+      32
+    ]
+  },
+  "caption": "Haar-random two-qubit brickwork circuits. (a) The OTOC F = Re Tr[W(t)^dag V^dag W(t) V]/d between Z on site 0 and Z at the stated distance stays at 1 until the operator front arrives and then decays toward ~0 (mean over 24 circuits, bands +/- 2 s.e.m.). (b) The arrival layer grows linearly with distance, a discrete light cone (open boundary conditions, so edge effects exist). (c) Half-chain entanglement from a product state saturates at 3.650 +/- 0.002 versus the Page value 3.659. Exact state-vector calculations; small sizes only."
+}

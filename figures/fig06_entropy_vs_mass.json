@@ -1,0 +1,15 @@
+{
+  "name": "fig06_entropy_vs_mass",
+  "png": "fig06_entropy_vs_mass.png",
+  "pdf": "fig06_entropy_vs_mass.pdf",
+  "generating_script": "experiments/02_thermodynamic_laws.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "M_range_kg": [
+      100000000.0,
+      1e+33
+    ]
+  },
+  "caption": "Bekenstein-Hawking entropy S_BH = 4 pi k_B G M^2/(hbar c). Fitted log-log slope 2.00000000; the ratio of the closed form to A/(4 l_P^2) deviates from 1 by at most 4.4e-16 (floating-point round-off)."
+}

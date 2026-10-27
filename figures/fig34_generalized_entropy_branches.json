@@ -1,0 +1,15 @@
+{
+  "name": "fig34_generalized_entropy_branches",
+  "png": "fig34_generalized_entropy_branches.png",
+  "pdf": "fig34_generalized_entropy_branches.pdf",
+  "generating_script": "experiments/12_generalized_entropy.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "S0": 1000.0,
+    "r": 1.3333333333333333,
+    "mu": 1.0,
+    "xi": 0.05
+  },
+  "caption": "Phenomenological island toy model S_gen(u) = S_H(1 + mu u) + S_rad exp(-u/xi) with S_H = S0 (1-tau)^(2/3) and S_rad = r (S0 - S_H); parameters S0 = 1000, r = 1.333, mu = 1, xi = 0.05. (a) The island candidate is a minimum of S_gen in u (dots). (b) The entropy of the radiation is the smaller of the no-island and island branches; the switch at tau_P = 0.6203 is a kink, i.e. a first-order-like transition. (c) After tau_P the radiation entropy follows the black-hole entropy. The functional form and parameters are illustrative assumptions, not derived from gravity."
+}

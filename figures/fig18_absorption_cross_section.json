@@ -1,0 +1,12 @@
+{
+  "name": "fig18_absorption_cross_section",
+  "png": "fig18_absorption_cross_section.png",
+  "pdf": "fig18_absorption_cross_section.pdf",
+  "generating_script": "experiments/05_greybody_factors.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "ell_max": 7
+  },
+  "caption": "Absorption cross-section of the Schwarzschild black hole for a massless scalar from the computed transmission probabilities. It tends to the horizon area as omega -> 0 (Das, Gibbons and Mathur 1997) and oscillates around the geometric-optics value (27/4) pi r_s^2 at high frequency (Sanchez 1978). Adding one further multipole changes sigma by at most 9.2e-11 (relative) over the range."
+}

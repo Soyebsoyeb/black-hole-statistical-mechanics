@@ -1,0 +1,13 @@
+{
+  "name": "fig19_emission_rate_greybody",
+  "png": "fig19_emission_rate_greybody.png",
+  "pdf": "fig19_emission_rate_greybody.pdf",
+  "generating_script": "experiments/05_greybody_factors.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "ell_max": 7,
+    "n_omega": 70
+  },
+  "caption": "d^2N/(dt d omega) = (1/2 pi) sum (2l+1) Gamma_l / (exp(hbar omega/k_B T_H) - 1) for a single real scalar, computed from the transmission probabilities, compared with blackbody emission from the horizon area and from the geometric-optics capture area. At low frequency the s-wave reproduces the horizon-area blackbody; the integrated scalar power is 7.19 times the horizon-area blackbody power for one bosonic degree of freedom (the geometric-optics blackbody, with emitting area 4 pi b_c^2 = 27 pi r_s^2, gives 27/4 = 6.75 and is reproduced numerically)."
+}

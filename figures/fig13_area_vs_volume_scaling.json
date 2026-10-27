@@ -1,0 +1,12 @@
+{
+  "name": "fig13_area_vs_volume_scaling",
+  "png": "fig13_area_vs_volume_scaling.png",
+  "pdf": "fig13_area_vs_volume_scaling.pdf",
+  "generating_script": "experiments/03_entropy_scaling.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "gas_temperature_K": 300.0
+  },
+  "caption": "An ordinary thermal system (photon gas at fixed temperature) has extensive entropy S ~ R^3, whereas the Bekenstein-Hawking entropy of a black hole of radius R scales as R^2. At 300 K the crossover lies at R ~ 1.5e54 m, far beyond the observable universe (4.4e26 m), so the plot illustrates only the different scaling exponents, not a bound; it does not identify the black-hole microstates."
+}

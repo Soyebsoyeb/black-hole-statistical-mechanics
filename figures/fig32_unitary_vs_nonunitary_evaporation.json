@@ -1,0 +1,14 @@
+{
+  "name": "fig32_unitary_vs_nonunitary_evaporation",
+  "png": "fig32_unitary_vs_nonunitary_evaporation.png",
+  "pdf": "fig32_unitary_vs_nonunitary_evaporation.pdf",
+  "generating_script": "experiments/10_random_unitary_evaporation.py",
+  "package_version": "0.1.0",
+  "seed": 20261022,
+  "parameters": {
+    "n_qubits": 10,
+    "n_seeds": 24,
+    "n_nonunitary_seeds": 4
+  },
+  "caption": "Toy evaporation of an N = 10 qubit register: each step applies a Haar-random unitary to the remaining black-hole qubits and then emits one qubit. (a) Unitary evolution reproduces the Page curve (mean over 24 seeds vs the exact average); the non-unitary reference (each emitted qubit is traced out of a mixed register and discarded from correlations) gives the monotonic Hawking-like S(R) = k ln 2. (b) The unitary global state stays pure (max norm deviation 8.9e-16); the non-unitary one becomes mixed. (c) The mutual information between radiation and black hole is 2 S(R) in the unitary model and zero in the reference. Non-unitary averages use 4 seeds. This is a qubit toy model, not a gravitational calculation."
+}

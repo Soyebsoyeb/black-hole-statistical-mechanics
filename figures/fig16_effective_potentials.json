@@ -1,0 +1,33 @@
+{
+  "name": "fig16_effective_potentials",
+  "png": "fig16_effective_potentials.png",
+  "pdf": "fig16_effective_potentials.pdf",
+  "generating_script": "experiments/05_greybody_factors.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "fields": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  "caption": "Effective potentials V = f [l(l+1)/r^2 + (1 - s^2) r_s/r^3] for massless fields of spin s = 0, 1, 2 (units r_s = 1). The barrier peak lies near the photon sphere and rises like l(l+1); the scattering of waves off it determines the greybody factor. All potentials vanish at the horizon and decay as l(l+1)/r^2 at infinity."
+}

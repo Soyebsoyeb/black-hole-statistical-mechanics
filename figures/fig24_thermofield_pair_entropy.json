@@ -1,0 +1,20 @@
+{
+  "name": "fig24_thermofield_pair_entropy",
+  "png": "fig24_thermofield_pair_entropy.png",
+  "pdf": "fig24_thermofield_pair_entropy.pdf",
+  "generating_script": "experiments/07_horizon_entanglement.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "d_values": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ]
+  },
+  "caption": "Truncated two-mode squeezed (Bogoliubov-pair) state |Psi> = sqrt(1-q) sum_n q^{n/2}|n>_in|n>_out with q = exp(-hbar omega/k_B T_H). The global state is pure; tracing out the interior gives the thermal Bose distribution with <n> = 1/(e^x - 1) and entropy (n+1)ln(n+1) - n ln n. d = 2 reproduces the large-x limit (a qubit) only. Convergence in d is geometric, faster at large x. This models the mode structure, not the near-horizon field dynamics that produce it."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "fig35_island_parameter_study",
+  "png": "fig35_island_parameter_study.png",
+  "pdf": "fig35_island_parameter_study.pdf",
+  "generating_script": "experiments/13_island_model.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "xis": [
+      0.01,
+      0.05,
+      0.2
+    ],
+    "S0s": [
+      100.0,
+      1000.0,
+      10000.0
+    ]
+  },
+  "caption": "(a) Bounded-minimiser and closed-form island locations agree to ~1e-8 (max difference in S_gen 1.1e-13). (b) Page time of the toy model against the entropy ratio r for several xi; xi (through kappa = mu xi) shifts it only slightly from the kappa -> 0 closed form 1 - (r/(1+r))^(3/2). (c) The normalised curve depends weakly on S0, so the shape is set by r and xi. All parameters are illustrative."
+}

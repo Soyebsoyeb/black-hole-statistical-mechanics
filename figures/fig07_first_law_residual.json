@@ -1,0 +1,27 @@
+{
+  "name": "fig07_first_law_residual",
+  "png": "fig07_first_law_residual.png",
+  "pdf": "fig07_first_law_residual.pdf",
+  "generating_script": "experiments/02_thermodynamic_laws.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "steps": [
+      1e-09,
+      0.1
+    ],
+    "RN": [
+      2.0,
+      1.0
+    ],
+    "Kerr": [
+      1.0,
+      0.6
+    ],
+    "AdS": [
+      1.0,
+      1.0
+    ]
+  },
+  "caption": "Relative residual of the first law of black-hole mechanics evaluated with central finite differences of the analytic M(S, Q, J). The residual follows the O(h^2) truncation error at large steps and is limited by round-off at small steps (the Schwarzschild entropy is exactly quadratic in M, so it is dominated by round-off throughout)."
+}

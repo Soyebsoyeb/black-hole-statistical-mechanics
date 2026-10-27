@@ -1,0 +1,17 @@
+{
+  "name": "fig04_radial_null_rays",
+  "png": "fig04_radial_null_rays.png",
+  "pdf": "fig04_radial_null_rays.pdf",
+  "generating_script": "experiments/01_black_hole_geometry.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "r0_over_rs": [
+      1.2,
+      2.0,
+      3.5,
+      6.0
+    ]
+  },
+  "caption": "Radial null geodesics t = t0 +/- (r_*(r) - r_*(r0))/c in Schwarzschild time. Rays approach r = r_s only asymptotically in t, illustrating the coordinate singularity of Schwarzschild time at the horizon."
+}

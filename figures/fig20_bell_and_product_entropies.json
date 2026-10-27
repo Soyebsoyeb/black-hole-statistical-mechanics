@@ -1,0 +1,12 @@
+{
+  "name": "fig20_bell_and_product_entropies",
+  "png": "fig20_bell_and_product_entropies.png",
+  "pdf": "fig20_bell_and_product_entropies.pdf",
+  "generating_script": "experiments/06_quantum_states.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "theta_grid": 200
+  },
+  "caption": "(a) Single-qubit entropy of cos(t)|00> + sin(t)|11>: zero for the product state, ln 2 for the Bell state, while the global entropy is zero throughout. (b) Product state: all quantities vanish. Bell state: S(AB) = 0, S(A) = ln 2, I = 2 ln 2, N = 1/2. Classically correlated mixture: I = ln 2 but N = 0 (correlation without entanglement). Werner state p = 0.5: mixed, entangled."
+}

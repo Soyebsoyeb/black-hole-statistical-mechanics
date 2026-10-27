@@ -1,0 +1,8 @@
+{
+  "n_qubits": 10,
+  "mean_peak_S_R": 2.959648048492554,
+  "exact_peak": 2.9663054768416144,
+  "max_norm_deviation": 8.881784197001252e-16,
+  "nonunitary_final_S_R": 6.931471805599453,
+  "unitary_final_S_R": 0.0
+}

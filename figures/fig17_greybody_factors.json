@@ -1,0 +1,15 @@
+{
+  "name": "fig17_greybody_factors",
+  "png": "fig17_greybody_factors.png",
+  "pdf": "fig17_greybody_factors.pdf",
+  "generating_script": "experiments/05_greybody_factors.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "ell_max": 7,
+    "n_omega": 70,
+    "rtol": 1e-10,
+    "x_match": 400.0
+  },
+  "caption": "Transmission probabilities obtained by integrating the radial wave equation from the horizon (pure ingoing wave) to a large radius and decomposing into Riccati-Hankel waves. All values lie in [0, 1] and Wronskian flux conservation holds to 1e-09 (relative to the incident flux). Low multipoles transmit well above y ~ 0.3 while high multipoles are suppressed by the centrifugal barrier. Spin-1 and spin-2 fields have a stronger barrier at the same l."
+}

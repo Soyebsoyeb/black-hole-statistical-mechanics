@@ -1,0 +1,12 @@
+{
+  "name": "fig09_free_energy_hawking_page",
+  "png": "fig09_free_energy_hawking_page.png",
+  "pdf": "fig09_free_energy_hawking_page.pdf",
+  "generating_script": "experiments/02_thermodynamic_laws.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "L": 1.0
+  },
+  "caption": "Free energy of Schwarzschild-AdS black holes (large branch solid, small branch dashed) compared with thermal AdS (F = 0). Black holes exist only above T_min = sqrt(3)/(2 pi L); the large branch crosses F = 0 at T_HP = 1/(pi L) (r_+ = L), reproducing the Hawking-Page transition (Hawking and Page 1983). Asymptotically flat Schwarzschild has F = M/2 > 0 at all temperatures and no preferred equilibrium (negative heat capacity)."
+}

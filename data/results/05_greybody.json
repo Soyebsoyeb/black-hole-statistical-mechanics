@@ -1,0 +1,42 @@
+{
+  "n_omega": 70,
+  "ell_max_used": 7,
+  "max_flux_defect_relative": 1.0541615961161402e-09,
+  "gamma_min": 1.2813920384172e-56,
+  "gamma_max": 0.9999999861075055,
+  "low_frequency_ratio_Gamma0_over_4y2_at_y_0.02_0.01_0.005": [
+    1.0714371950216774,
+    1.0337818404261774,
+    1.0163570971293898
+  ],
+  "sigma_over_geometric_optics_at_y_max": 0.966683246817641,
+  "sigma_over_geometric_optics_range": [
+    0.9343086916437222,
+    1.0974553575689843
+  ],
+  "truncation_max_relative_change_sigma": 9.213514326427812e-11,
+  "scalar_power_over_horizon_area_blackbody": 7.187349829498873,
+  "geometric_optics_blackbody_power_over_horizon_area_blackbody": 6.757759383065694,
+  "potential_peaks": {
+    "s0_l0": {
+      "r_peak_over_rs": 1.333392365456821,
+      "V_peak_rs2": 0.10546874875974699
+    },
+    "s0_l1": {
+      "r_peak_over_rs": 1.447276595744681,
+      "V_peak_rs2": 0.3970339616907404
+    },
+    "s0_l2": {
+      "r_peak_over_rs": 1.4735575719649563,
+      "V_peak_rs2": 0.9884593806873101
+    },
+    "s1_l2": {
+      "r_peak_over_rs": 1.4998385481852314,
+      "V_peak_rs2": 0.8888888579861667
+    },
+    "s2_l2": {
+      "r_peak_over_rs": 1.6400037546933668,
+      "V_peak_rs2": 0.6051467212803692
+    }
+  }
+}

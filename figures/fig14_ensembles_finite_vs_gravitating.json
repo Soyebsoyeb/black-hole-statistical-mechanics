@@ -1,0 +1,16 @@
+{
+  "name": "fig14_ensembles_finite_vs_gravitating",
+  "png": "fig14_ensembles_finite_vs_gravitating.png",
+  "pdf": "fig14_ensembles_finite_vs_gravitating.pdf",
+  "generating_script": "experiments/03_entropy_scaling.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "N": [
+      10,
+      40,
+      160
+    ]
+  },
+  "caption": "(a) Heat capacity of finite two-level systems computed directly from the density of states (binomial degeneracies) and compared with the closed form; it is non-negative in the canonical ensemble. (b) For S(E) = 4 pi E^2 the exponent S(E) - beta E of the canonical integral has its stationary point at E = beta/(8 pi), which is a minimum (second derivative 8 pi > 0): the canonical integral does not converge as a dominated saddle and the canonical and microcanonical descriptions disagree (Planck units, k_B = 1)."
+}

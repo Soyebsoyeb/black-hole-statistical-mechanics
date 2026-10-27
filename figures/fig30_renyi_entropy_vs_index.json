@@ -1,0 +1,16 @@
+{
+  "name": "fig30_renyi_entropy_vs_index",
+  "png": "fig30_renyi_entropy_vs_index.png",
+  "pdf": "fig30_renyi_entropy_vs_index.pdf",
+  "generating_script": "experiments/11_replica_entropy.py",
+  "package_version": "0.1.0",
+  "seed": 20261022,
+  "parameters": {
+    "d": 8,
+    "n_range": [
+      0.03162277660168379,
+      50.11872336272722
+    ]
+  },
+  "caption": "Renyi entropies of four d = 8 states computed from the eigenvalues. S_0 = ln rank, S_1 is the von Neumann entropy (markers), S_2 = -ln Tr rho^2 and S_infinity = -ln lambda_max. The curves are non-increasing in n and flat only for the maximally mixed state, whose spectrum is flat."
+}

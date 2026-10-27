@@ -1,0 +1,16 @@
+{
+  "name": "fig31_replica_vs_direct_entropy",
+  "png": "fig31_replica_vs_direct_entropy.png",
+  "pdf": "fig31_replica_vs_direct_entropy.pdf",
+  "generating_script": "experiments/11_replica_entropy.py",
+  "package_version": "0.1.0",
+  "seed": 20261022,
+  "parameters": {
+    "d": 8,
+    "h_range": [
+      1e-08,
+      0.1
+    ]
+  },
+  "caption": "Replica identity for a random d = 8 density matrix (S_vN = 1.503146). (a) ln Tr rho^n and its tangent at n = 1. (b) Finite-difference error: quadratic in h for the central difference and quartic for Richardson down to a round-off floor of ~1e-10..1e-11. (c) In finite dimension the continuation from integer replicas alone (polynomial interpolation) converges only slowly; gravitational path integrals provide only integer-n data, which is why the analytic continuation is the hard step there. A finite-dimensional calculation is not a gravitational path integral."
+}

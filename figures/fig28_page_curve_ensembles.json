@@ -1,0 +1,23 @@
+{
+  "name": "fig28_page_curve_ensembles",
+  "png": "fig28_page_curve_ensembles.png",
+  "pdf": "fig28_page_curve_ensembles.pdf",
+  "generating_script": "experiments/09_page_curve.py",
+  "package_version": "0.1.0",
+  "seed": 20261022,
+  "parameters": {
+    "qubit_counts": [
+      8,
+      10,
+      12,
+      14
+    ],
+    "n_samples": {
+      "8": 400,
+      "10": 300,
+      "12": 150,
+      "14": 60
+    }
+  },
+  "caption": "Ensemble of Haar-random pure states of N qubits; S(R_k) is the entropy of the first k qubits. Dark band: +/- 2 standard errors of the mean (this is the Monte Carlo error); light band: +/- 1 sample standard deviation (the genuine state-to-state fluctuation, which shrinks as N grows). The Monte Carlo mean agrees with the exact average within the statistical error. Results are reproducible for the seeds recorded in the figure sidecar."
+}

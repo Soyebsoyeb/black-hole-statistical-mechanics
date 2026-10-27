@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Black Hole Statistical Mechanics: From Horizon Thermodynamics to Quantum Entanglement and Information Recovery"
+type: software
+version: 0.1.0
+license: MIT
+abstract: >-
+  A reproducible computational-physics repository (Python package bhstatmech) on black-hole thermodynamics,
+  Hawking radiation, quantum entanglement, Page curves, toy island models, holographic entropy, scrambling and
+  quantum error correction. Many components are toy models; see docs/limitations.md.
+authors:
+  - name: "black-hole-statistical-mechanics contributors"
+keywords:
+  - black hole thermodynamics
+  - Hawking radiation
+  - entanglement entropy
+  - Page curve
+  - information paradox

@@ -1,0 +1,23 @@
+{
+  "name": "fig38_quantum_error_correction",
+  "png": "fig38_quantum_error_correction.png",
+  "pdf": "fig38_quantum_error_correction.pdf",
+  "generating_script": "experiments/16_quantum_error_correction.py",
+  "package_version": "0.1.0",
+  "seed": 20261038,
+  "parameters": {
+    "p": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "trials": 6000
+  },
+  "caption": "(a) Monte Carlo logical failure of the 3-qubit repetition code under independent bit flips (agrees with 3p^2 - 2p^3) and the 5-qubit perfect code under independent depolarising noise (failure ~ O(p^2)); points with zero observed failures are omitted; counts are over 6000 trials, binomial error ~ sqrt(f(1-f)/6000). (b) Coherent-information-style diagnostic I(ref:kept) for a maximally entangled reference: the 5-qubit code keeps the logical qubit recoverable (2 ln 2) after erasing any 2 qubits and loses it at 3, matching its distance 3; the repetition code protects only against X errors and is not an erasure-correcting code for quantum information. (c) Worst-case recoverability. This is a finite-code toy analogue of subregion reconstruction in holography, not a derivation of it."
+}

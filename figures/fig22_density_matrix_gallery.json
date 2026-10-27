@@ -1,0 +1,17 @@
+{
+  "name": "fig22_density_matrix_gallery",
+  "png": "fig22_density_matrix_gallery.png",
+  "pdf": "fig22_density_matrix_gallery.pdf",
+  "generating_script": "experiments/06_quantum_states.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "states": [
+      "product |0>|+>",
+      "Bell |phi+>",
+      "separable mixture\n(p = 0.5)",
+      "thermal state\n(beta = 1)"
+    ]
+  },
+  "caption": "Magnitudes |rho_ij| of two-qubit density matrices in the computational basis, with global entropy S, single-qubit entropy S(A) and purity Tr(rho^2) in the panel titles. The Bell state has off-diagonal coherences between |00> and |11>; the separable mixture has coherences too but is not entangled (negativity 0)."
+}

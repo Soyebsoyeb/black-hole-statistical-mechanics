@@ -1,0 +1,20 @@
+{
+  "name": "fig12_entropy_vs_area_log_correction",
+  "png": "fig12_entropy_vs_area_log_correction.png",
+  "pdf": "fig12_entropy_vs_area_log_correction.pdf",
+  "generating_script": "experiments/03_entropy_scaling.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "alphas": [
+      0.0,
+      -1.5,
+      0.5
+    ],
+    "A_range_lP2": [
+      100.0,
+      10000000000.0
+    ]
+  },
+  "caption": "Bekenstein-Hawking entropy with a parameterised logarithmic correction. The coefficient alpha is model dependent and the three values shown are illustrative only (different microscopic approaches give different values; none is assumed here). The fitted slope of the correction against ln A recovers alpha = -1.500000 for the alpha = -3/2 curve."
+}

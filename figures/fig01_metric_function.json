@@ -1,0 +1,13 @@
+{
+  "name": "fig01_metric_function",
+  "png": "fig01_metric_function.png",
+  "pdf": "fig01_metric_function.pdf",
+  "generating_script": "experiments/01_black_hole_geometry.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "M_kg": 1.988409870698051e+30,
+    "r_s_m": 2953.2500761002498
+  },
+  "caption": "Schwarzschild metric function f(r) (left). The component g_rr = 1/f diverges at the horizon in Schwarzschild coordinates but the determinant of the (v, r) block of the ingoing Eddington-Finkelstein metric equals -c^2 everywhere, so the horizon is a coordinate artefact there (right)."
+}

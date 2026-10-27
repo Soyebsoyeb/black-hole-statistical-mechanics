@@ -1,0 +1,28 @@
+# Scientific configuration for all experiments.  Bump config_version on any
+# change that alters the meaning of a key.
+config_version = 1
+master_seed = 20261022
+
+[page_curve]
+qubit_counts = [8, 10, 12, 14]
+n_samples = { "8" = 400, "10" = 300, "12" = 150, "14" = 60 }
+
+[evaporation]
+n_qubits = 10
+n_seeds = 24
+
+[lattice]
+chain_sites = 256
+mass_small = 1.0e-3
+
+[scrambling]
+n_qubits_otoc = 8
+n_realizations = 24
+n_qubits_entanglement = 12
+n_realizations_entanglement = 32
+
+[greybody]
+ell_max = 6
+n_omega = 70
+y_min = 0.005
+y_max = 1.6

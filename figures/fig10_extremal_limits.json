@@ -1,0 +1,12 @@
+{
+  "name": "fig10_extremal_limits",
+  "png": "fig10_extremal_limits.png",
+  "pdf": "fig10_extremal_limits.pdf",
+  "generating_script": "experiments/02_thermodynamic_laws.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "M": 1.0
+  },
+  "caption": "Temperature, entropy and horizon angular velocity as functions of charge-to-mass ratio (RN) and spin (Kerr), normalised to the Schwarzschild values at equal M. T vanishes continuously at extremality with finite entropy; the Kerr Smarr relation M = 2TS + 2 Omega J holds to round-off (tests/test_spacetimes.py). The horizon radius is computed as sqrt((M-Q)(M+Q)) to avoid cancellation near extremality."
+}

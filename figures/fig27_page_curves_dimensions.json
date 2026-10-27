@@ -1,0 +1,18 @@
+{
+  "name": "fig27_page_curves_dimensions",
+  "png": "fig27_page_curves_dimensions.png",
+  "pdf": "fig27_page_curves_dimensions.pdf",
+  "generating_script": "experiments/09_page_curve.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "N": [
+      8,
+      12,
+      16,
+      24,
+      48
+    ]
+  },
+  "caption": "Haar-average entropy of the first k of N qubits from Page's exact formula <S_{m,n}> = psi(mn+1) - psi(n+1) - (m-1)/(2n). The normalised curves approach the piecewise-linear bound min(k, N-k)/N as N grows (the rise-then-fall shape comes from sampling pure states of a fixed total dimension, not from an imposed curve). At the symmetric point the average falls short of the maximal value (N/2) ln 2 by 1/2 nat in the large-N limit (b)."
+}

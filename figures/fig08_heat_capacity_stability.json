@@ -1,0 +1,13 @@
+{
+  "name": "fig08_heat_capacity_stability",
+  "png": "fig08_heat_capacity_stability.png",
+  "pdf": "fig08_heat_capacity_stability.pdf",
+  "generating_script": "experiments/02_thermodynamic_laws.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "Q": 1.0,
+    "L": 1.0
+  },
+  "caption": "Heat capacities in their stated ensembles. Schwarzschild: C = -2 S_BH < 0 (local thermodynamic instability). RN at fixed charge: positive for r_+ < sqrt(3)|Q| (near-extremal), diverging and negative beyond. Schwarzschild-AdS at fixed L: negative for r_+ < L/sqrt(3) (small BH), positive for large BH. Local thermodynamic stability is distinct from global preference (Fig 09) and from dynamical stability, which is not analysed here."
+}

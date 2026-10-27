@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhstatmech"
+version = "0.1.0"
+description = "Black hole statistical mechanics: horizon thermodynamics, quantum entanglement, Page curves, islands and information recovery (computational laboratory)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "black-hole-statistical-mechanics contributors" }]
+keywords = ["black holes", "Hawking radiation", "entanglement entropy", "Page curve", "information paradox", "computational physics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "sympy>=1.12",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "slow: heavier integration tests (deselect with -m 'not slow')",
+]

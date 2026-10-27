@@ -1,0 +1,17 @@
+{
+  "T_sun_K": 6.17026040718434e-08,
+  "S_sun_over_kB": 1.0488914484892333e+77,
+  "M_where_T_equals_CMB_kg": 4.502387779237694e+22,
+  "entropy_loglog_slope": 2.0,
+  "max_area_law_relative_deviation": 4.440892098500626e-16,
+  "hawking_page": {
+    "T_min": 0.27566444771089604,
+    "T_HP": 0.3183098861837907
+  },
+  "photon_only_lifetime_equals_age_of_universe_at_kg": 172996339975.93475,
+  "epsilon_0p1_mass_kg": 1.5707061915709558e-09,
+  "epsilon_at_planck_mass": 0.0005208333333333337,
+  "epsilon_at_1e12_kg": 2.467117940239333e-43,
+  "evaporation_ode_max_time_error": 4.8293591348169684e-12,
+  "t_evap_1e12kg_seconds": 8.41147790485598e+19
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fig11_evaporation",
+  "png": "fig11_evaporation.png",
+  "pdf": "fig11_evaporation.pdf",
+  "generating_script": "experiments/02_thermodynamic_laws.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "m0_kg": 1000000000000.0,
+    "cross_section": "horizon"
+  },
+  "caption": "Quasi-static photon-only evaporation (L = sigma_SB A T_H^4, no greybody factors or other species): numerical integration vs the closed form, lifetime scaling and the adiabaticity parameter epsilon = (hbar/k_B T_H)|dM/dt|/M. The photon-only lifetime equals the age of the universe at M ~ 1.73e+11 kg. These lifetimes are approximations. epsilon grows as M^-2 but is still only 5.2e-04 at the Planck mass (it reaches 0.1 at 0.07 M_P), so this heuristic criterion does not locate the breakdown of the semiclassical picture; Planck-scale effects are expected earlier and are not modelled. The model is not extended to the endpoint."
+}

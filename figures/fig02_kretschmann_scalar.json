@@ -1,0 +1,16 @@
+{
+  "name": "fig02_kretschmann_scalar",
+  "png": "fig02_kretschmann_scalar.png",
+  "pdf": "fig02_kretschmann_scalar.pdf",
+  "generating_script": "experiments/01_black_hole_geometry.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "M_kg": 1.988409870698051e+30,
+    "x_range": [
+      0.01,
+      10
+    ]
+  },
+  "caption": "K = 12 r_s^2 / r^6 = 48 G^2 M^2 / (c^4 r^6), verified symbolically (tests/test_spacetimes.py). K is finite at r = r_s, so the horizon is not a curvature singularity; K diverges only at r = 0."
+}

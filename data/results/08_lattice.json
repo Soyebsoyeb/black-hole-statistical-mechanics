@@ -1,0 +1,19 @@
+{
+  "cft_slope_fit": 0.29701590610721307,
+  "refinement_slope": 0.33334068942723766,
+  "entropy_minus_third_log_N": [
+    2.246880599778059,
+    2.246897734085134,
+    2.2469019764531364,
+    2.246902994609232,
+    2.246903463794761
+  ],
+  "N_refine": [
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "two_point_exact_check_note": "tests/test_lattice_models.py::test_two_oscillator_matches_analytic_formula"
+}

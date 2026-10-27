@@ -1,0 +1,1010 @@
+{
+ "archive": "black-hole-statistical-mechanics.zip",
+ "n_files": 251,
+ "files": {
+  ".editorconfig": {
+   "bytes": 227,
+   "sha256": "1bc0e5395dff20c11769b011092dc40a832dfcf42d549b4fd4089ea2b816bb07"
+  },
+  ".github/workflows/tests.yml": {
+   "bytes": 571,
+   "sha256": "d2f55757f990036b12601543287a6ca5241c0c0c2de4a4671b569d579ee594e3"
+  },
+  ".gitignore": {
+   "bytes": 301,
+   "sha256": "e6c4f25493470ca1988ed3bed42d4495701c52d1054a5add7f26390851bc1d96"
+  },
+  "CITATION.cff": {
+   "bytes": 770,
+   "sha256": "806e96946f741ad341a54d2dd78db526930121eabbfca3f7f1ecf7cb7960323e"
+  },
+  "LICENSE": {
+   "bytes": 1102,
+   "sha256": "78621286635f9a6f83dccf89514dcf7bff911e959cedc81bd938cbd7988ebaf6"
+  },
+  "Makefile": {
+   "bytes": 516,
+   "sha256": "20b62d25beba8077a11bb45d9a2365b32a550646b83cc14537d735060a49bec6"
+  },
+  "README.md": {
+   "bytes": 36276,
+   "sha256": "8f35e3164bcab4655829e22087ec0beb4404c6dd945d85b819aec59eb364d2d1"
+  },
+  "configs/default.toml": {
+   "bytes": 533,
+   "sha256": "88ac15ad381ee4e3636cefee8249599217023b684dc3fa20f53ab9d7bc2493f5"
+  },
+  "data/README.md": {
+   "bytes": 870,
+   "sha256": "a42fb7d5ea0742e098942a887762a97d4a2dc5545bddab8258eaf28f064fbcb3"
+  },
+  "data/metadata/provenance.md": {
+   "bytes": 865,
+   "sha256": "b4299ec0f8573d07ab0d22396503e60095a77f48a1a98374eedc0c675555abbf"
+  },
+  "data/results/01_geometry.json": {
+   "bytes": 189,
+   "sha256": "febe5b06348286360fac167669fd022e08795920d4befc70feb8a6f5bdaa398f"
+  },
+  "data/results/02_thermodynamics.json": {
+   "bytes": 645,
+   "sha256": "1eab5a32544c854efae052260796a385b189222ca975639e4d9e0f788082c32d"
+  },
+  "data/results/03_entropy_scaling.json": {
+   "bytes": 233,
+   "sha256": "60a7a1c9fb8755dde68ec19954b1a282eae6f46b6909f64775ee46750f17d1c1"
+  },
+  "data/results/04_spectra.json": {
+   "bytes": 467,
+   "sha256": "2a5c3199f5c0d6d844cd0f378f3002c2e9c0aab72cc58d829c4a66801ac6824a"
+  },
+  "data/results/05_greybody.json": {
+   "bytes": 1226,
+   "sha256": "92cb98c8368a2b064b0650ccd4d2e167ab6707a4f0d537314117bc3549467557"
+  },
+  "data/results/06_states.json": {
+   "bytes": 842,
+   "sha256": "825369218a918c0c6a11afd8e6fc745681a644e2eb53844cdac08ff56ac0f5a6"
+  },
+  "data/results/07_horizon_entanglement.json": {
+   "bytes": 2328,
+   "sha256": "8327b8bc65712b9bd6ccf0c4bbc0720e4bf828ebd7615752f17ee0552fa0cf63"
+  },
+  "data/results/08_lattice.json": {
+   "bytes": 412,
+   "sha256": "eab89b543b2bf13add6cc1237626a66a7bae2e111570a879747b635f272d958c"
+  },
+  "data/results/09_page_curve.json": {
+   "bytes": 916,
+   "sha256": "806b7c345d6922a49a3d50d89bccdb8a42914268116c0cc66f3c692950cb37e2"
+  },
+  "data/results/10_unitary_evaporation.json": {
+   "bytes": 215,
+   "sha256": "159c77b00f1e68168384507d4007512a26672a0529d31621bab9a3e3bfdff094"
+  },
+  "data/results/11_replica.json": {
+   "bytes": 499,
+   "sha256": "a70ba29a4fbf0919c8922ae22179ebd674cf9e6a4bb0f39b7e742acfab5c65b5"
+  },
+  "data/results/12_generalized_entropy.json": {
+   "bytes": 133,
+   "sha256": "7f833149c4e9eabc9bf5efb842e95baeb6f06baaffc87aac00f25b223855e22b"
+  },
+  "data/results/13_island_model.json": {
+   "bytes": 124,
+   "sha256": "9e131e19ad4f3e28291e7fb438992374994e502439e8015a8113068fe29851a6"
+  },
+  "data/results/14_holography.json": {
+   "bytes": 139,
+   "sha256": "05766b9f77bec58a853ce5427e735f542f2305a8a4225ea788e9ae36132cf211"
+  },
+  "data/results/15_scrambling.json": {
+   "bytes": 214,
+   "sha256": "7c8081ac049bcc44f59bea1da232148afbd1f27685d825e248a70d0db6543e65"
+  },
+  "data/results/16_qec.json": {
+   "bytes": 808,
+   "sha256": "06713709c5156c136cde423320c1ca432b9d071a01bb8ec3c98677c6a4a291cd"
+  },
+  "data/results/greybody_scalar.csv": {
+   "bytes": 15784,
+   "sha256": "b0bbd2207f7b48a2d036c27e8776623557b3bcda8535216561ae708c38a04db9"
+  },
+  "docs/black_hole_thermodynamics.md": {
+   "bytes": 1894,
+   "sha256": "0a6c96930049cf960eb63bf97f8bf5fb6271b7f106d455a48e7bdb4c47655cc9"
+  },
+  "docs/generalized_entropy.md": {
+   "bytes": 1527,
+   "sha256": "a20f50b43bf3b6b18ef892ee7f7b5dda78bae8572c3b14d82d631915da90e6e9"
+  },
+  "docs/hawking_radiation.md": {
+   "bytes": 1549,
+   "sha256": "518bfbd8f3a50d08c7e105df61b92e4721cb7250b58e665962cd3d2c2d691092"
+  },
+  "docs/holography.md": {
+   "bytes": 1289,
+   "sha256": "6ac165dad3a17698dd8cba62794c0a08d4caf1d96da0d5ffc31dd70415fdf6b5"
+  },
+  "docs/index.md": {
+   "bytes": 2372,
+   "sha256": "427a4bfcf2389e2a5cad654b7fbb0fe301dbdf644726bea462d595f174b892f0"
+  },
+  "docs/information_paradox.md": {
+   "bytes": 1643,
+   "sha256": "41b9a4b8acf966db90c17227558bf6ca41ac51b6def771a12e76b695d627073b"
+  },
+  "docs/islands_and_replica_methods.md": {
+   "bytes": 1199,
+   "sha256": "037287099086991558098b8d74ea606cca1f1953d7f2ad8cce4add737c84049f"
+  },
+  "docs/lattice_field_theory.md": {
+   "bytes": 1860,
+   "sha256": "b8107a47577e87f0ce67fa7914b8015177e2ba395e4093d91debf63fec571ece"
+  },
+  "docs/limitations.md": {
+   "bytes": 1702,
+   "sha256": "5535d7afe2782d3e490a91d7a4fb2478555dc8f45d8b7750c9e214dc3b14250d"
+  },
+  "docs/mathematical_derivations.md": {
+   "bytes": 3998,
+   "sha256": "015aa91216914dd0ec351daebc82e247884ed6deaeec8b782f44ed319fc00470"
+  },
+  "docs/numerical_methods.md": {
+   "bytes": 1342,
+   "sha256": "4acf0779e2929d962adf1c742b0d9c1ef68d15256a5146f3c9b601f328aaa2d6"
+  },
+  "docs/page_curve.md": {
+   "bytes": 1348,
+   "sha256": "5e5204642bae312621aea7443e1dbbab23034f82187d1074a0df87e065ca73bc"
+  },
+  "docs/quantum_entanglement.md": {
+   "bytes": 1909,
+   "sha256": "47a73560fedefe2d748b3f395337af5cedb6346e1717d211f67baddcb3824757"
+  },
+  "docs/quantum_information.md": {
+   "bytes": 2269,
+   "sha256": "327faeb3fbd679b70b87741d98d87b884e6244a6e35299c3bd37a609e2c08e4e"
+  },
+  "docs/references.md": {
+   "bytes": 4258,
+   "sha256": "ab0a2fee2720ba4d472c34f81a1b7be8b276d55bde8898ee10d55bb48247f1b9"
+  },
+  "docs/statistical_mechanics.md": {
+   "bytes": 1301,
+   "sha256": "d12e0dc94dcbb599385742d03762a221ab2e870c2352beb1b69f139cb41a9f34"
+  },
+  "docs/theory.md": {
+   "bytes": 2254,
+   "sha256": "a564316687fc2ff91e46c8403bb47335d2e3fbdb6e2346c6dce7918d685854a7"
+  },
+  "docs/validation.md": {
+   "bytes": 3098,
+   "sha256": "607623c6b74e8b5ea5b1ff354e848a9ca6727bc6c8039bd0117646b3de30b6dc"
+  },
+  "experiments/01_black_hole_geometry.py": {
+   "bytes": 5596,
+   "sha256": "aac69c5ba0e873ef3c4800a436cea46d93e984c9ecde356c12e95aec4583332f"
+  },
+  "experiments/02_thermodynamic_laws.py": {
+   "bytes": 14263,
+   "sha256": "b8708c3e2fcc4aa24242d1b55a37842209c53d58588c2c82f85193c9839db4a6"
+  },
+  "experiments/03_entropy_scaling.py": {
+   "bytes": 6224,
+   "sha256": "af50b6525b47894e90080833ea435ee3fd08763f4488cbc7d5fb7f8b56af0ce8"
+  },
+  "experiments/04_hawking_spectra.py": {
+   "bytes": 2569,
+   "sha256": "3183ad2645fd987bc39d7765d0053c3ac25d5102d840f4a9086470c9d931e149"
+  },
+  "experiments/05_greybody_factors.py": {
+   "bytes": 8218,
+   "sha256": "103a4b2d2903ea411e95a196c526b1b022957f8f5e7bd28dd74d47343504fe4b"
+  },
+  "experiments/06_quantum_states.py": {
+   "bytes": 9324,
+   "sha256": "b66f1e5b6471d8ed58afff7fe217514d429fb7b7a1cb3ba0ec9a6550d7f92ec9"
+  },
+  "experiments/07_horizon_entanglement.py": {
+   "bytes": 4151,
+   "sha256": "3ea18d1e3422bc4a1847089c698628d2fdf8630a543f3a360a496e02c6d5a005"
+  },
+  "experiments/08_lattice_entanglement.py": {
+   "bytes": 5719,
+   "sha256": "fe15574ccc124a4a571cf1596486279593fdfa631ba91a6945f00cae89863fa6"
+  },
+  "experiments/09_page_curve.py": {
+   "bytes": 5545,
+   "sha256": "2d460fac8260cc3541131595f07b5df21f12e440d159cfef4ff0433bb052debe"
+  },
+  "experiments/10_random_unitary_evaporation.py": {
+   "bytes": 5066,
+   "sha256": "be533a979aec216fe4f87717adcf4dc1cc525db5cce7308d7c8277f9072ec66e"
+  },
+  "experiments/11_replica_entropy.py": {
+   "bytes": 4937,
+   "sha256": "a42fc17ebd8af09d8b74b503d5ccf51dab93119d3ee4a49880196af291936142"
+  },
+  "experiments/12_generalized_entropy.py": {
+   "bytes": 2735,
+   "sha256": "a9ffdf7628233bbff015aa2711621dbf87688dafe39915d25c4371568d91c8cf"
+  },
+  "experiments/13_island_model.py": {
+   "bytes": 2620,
+   "sha256": "5d5ad85bd34e0d73bbd4ccf70e412aebd2ba107d24cd8b389fb5790615fc5d9d"
+  },
+  "experiments/14_holographic_entropy.py": {
+   "bytes": 3345,
+   "sha256": "8a14940284630633b1e699e74dd1519fac0e7342a96b0d8e5408bfa65c955142"
+  },
+  "experiments/15_scrambling.py": {
+   "bytes": 2900,
+   "sha256": "65932f48c3bad3c65c30191ef8cbd5a69aeb950da729e1e9880e8bcad445028b"
+  },
+  "experiments/16_quantum_error_correction.py": {
+   "bytes": 5038,
+   "sha256": "563f7c639b39dcdd69e7a3ffee3522998f5bb373d0cecae94274b39ab7bc2a7e"
+  },
+  "experiments/_common.py": {
+   "bytes": 1666,
+   "sha256": "4380e45378e3b69512761c3c6b11f4e0a6dcfcb2d281d787fce2f4921026025a"
+  },
+  "figures/README.md": {
+   "bytes": 343,
+   "sha256": "042adf70600a53d83a03eb6768d517d9698cc9e58fb48713e516c6e8e459f634"
+  },
+  "figures/fig01_metric_function.json": {
+   "bytes": 614,
+   "sha256": "4273e07593ea2fa7cd732fb4d4dc061712a51e7b006c1059b4acf6f04405cc79"
+  },
+  "figures/fig01_metric_function.pdf": {
+   "bytes": 21431,
+   "sha256": "ee331107d4a6add5272c48ba4e2db0d1e98f487535193c6a4c7233de3d4d2496"
+  },
+  "figures/fig01_metric_function.png": {
+   "bytes": 116901,
+   "sha256": "68e9c49087a54e6bc537154bb0f7afe56733c486fac93114f9c9df98539eb4ed"
+  },
+  "figures/fig02_kretschmann_scalar.json": {
+   "bytes": 543,
+   "sha256": "7da1288a4db380b271b15cac9e52d19b7d870ec4e1645061047eb810ff7fdb3b"
+  },
+  "figures/fig02_kretschmann_scalar.pdf": {
+   "bytes": 16027,
+   "sha256": "dc7c253591ad8c6b8630e0ae78329086b785fc0827ee1a5226eb65c512912b75"
+  },
+  "figures/fig02_kretschmann_scalar.png": {
+   "bytes": 80998,
+   "sha256": "9b8e3c0b82d322deeac13e8c1c2b2fc864b2f4ac660ca122c7a61429c68490af"
+  },
+  "figures/fig03_tortoise_coordinate.json": {
+   "bytes": 546,
+   "sha256": "65e2cc08b9057006a805e1bb9c3e359ddff14fa0489db14f92bae80576405948"
+  },
+  "figures/fig03_tortoise_coordinate.pdf": {
+   "bytes": 15860,
+   "sha256": "9397c96052240a9ff42fa41221b3dbe1dc2c4e76e54b6e5422d148b927d6d9dd"
+  },
+  "figures/fig03_tortoise_coordinate.png": {
+   "bytes": 81121,
+   "sha256": "3b012b306cf191e39997b56f1430f3a11353656cf68d9ac31bac019ee2f0efc9"
+  },
+  "figures/fig04_radial_null_rays.json": {
+   "bytes": 538,
+   "sha256": "9d64911e9ce42574269912e1d77c7fc6ef07873c7f7bc2ddd0b3d90861349be8"
+  },
+  "figures/fig04_radial_null_rays.pdf": {
+   "bytes": 16198,
+   "sha256": "ac2f07a4c93fbd378a43d211a831c4cc5578fb7ddaa8923fe1f7ccaa47930e63"
+  },
+  "figures/fig04_radial_null_rays.png": {
+   "bytes": 95761,
+   "sha256": "16233f3813f84bdd5420bafbe1fa69595721483cda32bfaa9c36a2d7d7b8f90b"
+  },
+  "figures/fig05_hawking_temperature.json": {
+   "bytes": 554,
+   "sha256": "4ec77c76d8ea052be580ca16e0ea78a7c6edfd7996884b83e5dbaab0653ac6f4"
+  },
+  "figures/fig05_hawking_temperature.pdf": {
+   "bytes": 19114,
+   "sha256": "69417cfe1266c2a50628baf678c3d17d2ab4976cd0373f8ce41ca565f763e947"
+  },
+  "figures/fig05_hawking_temperature.png": {
+   "bytes": 89604,
+   "sha256": "1155f0feb47dc946cc6084362c4b1380820467e8a15a261a9b7f94fc0754fa80"
+  },
+  "figures/fig06_entropy_vs_mass.json": {
+   "bytes": 518,
+   "sha256": "8e2cd27f65e036bba04a78a279238931eb62edb4b0c9bc518431780dd5958525"
+  },
+  "figures/fig06_entropy_vs_mass.pdf": {
+   "bytes": 20145,
+   "sha256": "ccab8bb5e815de61794471055f126ae12e45ab1768e90b357b9bcd255605af01"
+  },
+  "figures/fig06_entropy_vs_mass.png": {
+   "bytes": 121745,
+   "sha256": "2a1d1ceea15354207d38b0a82611bd936d56b2c0f79a39946944ed971b227dfd"
+  },
+  "figures/fig07_first_law_residual.json": {
+   "bytes": 773,
+   "sha256": "9bc467da56a64225d280fa2d01c83f2c1a62ca13ec7b35317d737781a0ef7658"
+  },
+  "figures/fig07_first_law_residual.pdf": {
+   "bytes": 22522,
+   "sha256": "98a1bd7904dfbca7307b41bd02ac38fc082d25205630a0fc08be4e48f44c9950"
+  },
+  "figures/fig07_first_law_residual.png": {
+   "bytes": 154231,
+   "sha256": "92f5fe9baefe3c91e5ec0592b5b8ebc0b14792569d9c66e5f803df7457bed37a"
+  },
+  "figures/fig08_heat_capacity_stability.json": {
+   "bytes": 746,
+   "sha256": "b92de868a04ee9506027eb6b519e09abca577945f529f2f627041d134ffa7935"
+  },
+  "figures/fig08_heat_capacity_stability.pdf": {
+   "bytes": 26062,
+   "sha256": "bd703f4b125d4481092747a6425f5f0b9a75fb28bbe3c315cb338afee8e0a30a"
+  },
+  "figures/fig08_heat_capacity_stability.png": {
+   "bytes": 180660,
+   "sha256": "e8e865a414b004ccf8732a3a19508987787c751415d1fb90c6e2a8ff8f8c4aa2"
+  },
+  "figures/fig09_free_energy_hawking_page.json": {
+   "bytes": 730,
+   "sha256": "dbb06ef2491460a4f5a710dee4cfe31b800b03375308e2723f9b874e09624bdb"
+  },
+  "figures/fig09_free_energy_hawking_page.pdf": {
+   "bytes": 22819,
+   "sha256": "cd505eb7a874789660a78079987fca02010b835622525db7e2d516b5627019a1"
+  },
+  "figures/fig09_free_energy_hawking_page.png": {
+   "bytes": 111602,
+   "sha256": "868112f2aaca98f7da58dcfe9d1914429bc99a2010760fe743a994ff71e77b2a"
+  },
+  "figures/fig10_extremal_limits.json": {
+   "bytes": 677,
+   "sha256": "03c3e447701abfd91f1b2acf2be1b54b415c22e730bfd98475b414e0b5a26b2d"
+  },
+  "figures/fig10_extremal_limits.pdf": {
+   "bytes": 18714,
+   "sha256": "21f8fa0911a8ab1e76cee1e2db975be34e50a95878530f5fb3c8f96c1b2b923e"
+  },
+  "figures/fig10_extremal_limits.png": {
+   "bytes": 123392,
+   "sha256": "da8680f7006032d7b2686bfaa57e6ed4f05e40862eed07188708537dd6c64ca2"
+  },
+  "figures/fig11_evaporation.json": {
+   "bytes": 939,
+   "sha256": "d7c6122172aacc98dac004a356a5f1f75de47959d28fbb36d238aa35e2c836b6"
+  },
+  "figures/fig11_evaporation.pdf": {
+   "bytes": 24607,
+   "sha256": "4fb551c9c4e9f0bf8bcee8745bdc15e28db9763ea529d1b796c7aef41a1f2265"
+  },
+  "figures/fig11_evaporation.png": {
+   "bytes": 196998,
+   "sha256": "4109deb19b16750ae917ac2d5bc509ff1fcc5b2592ce35e63906d428dd7e74d9"
+  },
+  "figures/fig12_entropy_vs_area_log_correction.json": {
+   "bytes": 765,
+   "sha256": "27ff401c5b1145f68ea95a4354df2a1f7def57f906bb924d8dcc3509368a6c48"
+  },
+  "figures/fig12_entropy_vs_area_log_correction.pdf": {
+   "bytes": 21744,
+   "sha256": "ebfd2214fd6762de6d25011851586ca8fa3aa452134401fcc5e1d84b63c22548"
+  },
+  "figures/fig12_entropy_vs_area_log_correction.png": {
+   "bytes": 138092,
+   "sha256": "fa973bf498c3f8e7e9902bd60d876f7b670fe4bfff16fde6f21dc79c1b445f72"
+  },
+  "figures/fig13_area_vs_volume_scaling.json": {
+   "bytes": 701,
+   "sha256": "28a2a29c368deef4c10b8da8ef4a0b8cb2094157605e968d8ec2e839e5e4dc48"
+  },
+  "figures/fig13_area_vs_volume_scaling.pdf": {
+   "bytes": 19349,
+   "sha256": "19c9baf34e823c0e9b32b29b47647c5a4f6a445f5397657cd1024d0e451fa994"
+  },
+  "figures/fig13_area_vs_volume_scaling.png": {
+   "bytes": 128272,
+   "sha256": "3c7328d1750419d023ea7c100e67b4333214b86fe8744df7b48935ed405bd366"
+  },
+  "figures/fig14_ensembles_finite_vs_gravitating.json": {
+   "bytes": 868,
+   "sha256": "ca6a4d17a11cd1a4e55f6d0a8770afbef7518c17014201d946db837482c35167"
+  },
+  "figures/fig14_ensembles_finite_vs_gravitating.pdf": {
+   "bytes": 26676,
+   "sha256": "30640fd6cfebe4870a7d0ae6846972f4a019ae969da28531f6b5a6f9aeee39dd"
+  },
+  "figures/fig14_ensembles_finite_vs_gravitating.png": {
+   "bytes": 199274,
+   "sha256": "8ec8b06dfac25316c0c27eff25c3d5503346439235378559a3fa449e6ff3f12b"
+  },
+  "figures/fig15_hawking_spectra.json": {
+   "bytes": 771,
+   "sha256": "f98c9a073498acc8e18132adc71c4687a823007d715747b80c2f6d7dc16ef3fe"
+  },
+  "figures/fig15_hawking_spectra.pdf": {
+   "bytes": 22535,
+   "sha256": "c15020fed778da0a25a9708529995f25837e5273135b512901863cb7b81b39c0"
+  },
+  "figures/fig15_hawking_spectra.png": {
+   "bytes": 158928,
+   "sha256": "ce3251a6f7fc1e18a2f285005f173a730163703d74f185dbd85ffe5b82393006"
+  },
+  "figures/fig16_effective_potentials.json": {
+   "bytes": 808,
+   "sha256": "feb3d8b78312b0bf2ed0f41aaa3d2303251ebf4ee8b3ebb1f17d4add84170f67"
+  },
+  "figures/fig16_effective_potentials.pdf": {
+   "bytes": 18435,
+   "sha256": "394add29fecc6676e968e6b85c2c0ab257aadb888aece966751f98357eb716e5"
+  },
+  "figures/fig16_effective_potentials.png": {
+   "bytes": 130755,
+   "sha256": "e9a2925a5662dd26c4544685d3f41ae696da7fa4e7c2ddfb38b0616d44924a58"
+  },
+  "figures/fig17_greybody_factors.json": {
+   "bytes": 791,
+   "sha256": "a22c4fce0eaba6677399218fcac4fc6a5913cd84ef8a594e5cd1f142d2cfd473"
+  },
+  "figures/fig17_greybody_factors.pdf": {
+   "bytes": 19113,
+   "sha256": "9cc264f9e7582e57da6d6470bf3b1642a59de5d8dbd581f0f29dd83a6cec40eb"
+  },
+  "figures/fig17_greybody_factors.png": {
+   "bytes": 147068,
+   "sha256": "c7117dd263ca3255b533052a0ba22799409a91ca4afac18282b9b0112f6b1a98"
+  },
+  "figures/fig18_absorption_cross_section.json": {
+   "bytes": 691,
+   "sha256": "d081c7845f6260a982cb8ee228d4cb5804ddc4931ecd6c427ab7dfb8b142645e"
+  },
+  "figures/fig18_absorption_cross_section.pdf": {
+   "bytes": 19143,
+   "sha256": "0b091ab07273d00a267ccdd11db3da0c8c96c99de646ed8bdba66369f73c4293"
+  },
+  "figures/fig18_absorption_cross_section.png": {
+   "bytes": 88788,
+   "sha256": "0463e4bc6fff50523d055588facddacaa18cf5bb97a439247abbe98dd5250aaf"
+  },
+  "figures/fig19_emission_rate_greybody.json": {
+   "bytes": 872,
+   "sha256": "c2363f76edd1280d5c4deaadff8cbcfa9d3e5ac8e07e6f7e9d7bb3fd7986ac18"
+  },
+  "figures/fig19_emission_rate_greybody.pdf": {
+   "bytes": 19411,
+   "sha256": "b6afb5bb820b6ac6c11a045f300acb03e7ea0ccc74dc2a1a0b5d56006271179d"
+  },
+  "figures/fig19_emission_rate_greybody.png": {
+   "bytes": 115751,
+   "sha256": "66e97a69a7b2a1e9697ddc4684e7e73c8d4ffc12fc4e256b061a4db9d02f12b0"
+  },
+  "figures/fig20_bell_and_product_entropies.json": {
+   "bytes": 690,
+   "sha256": "58254e553bd9b9f0db3461b92b23667659727f9b112e4f6f3818073e65c2f04a"
+  },
+  "figures/fig20_bell_and_product_entropies.pdf": {
+   "bytes": 26147,
+   "sha256": "4a32bc6678b7bfe301aca0ddbecf8a7713f0eb2e8c46af690d7ebdbe23834cd9"
+  },
+  "figures/fig20_bell_and_product_entropies.png": {
+   "bytes": 163872,
+   "sha256": "f2369436f45497962e8e93e483e15fbac06102e2d446e77158954d2576f55f54"
+  },
+  "figures/fig21_density_matrix_eigenvalues.json": {
+   "bytes": 781,
+   "sha256": "b4e3f96bc5ad9f8a67dac2c365d8476a406939e4caa500a708d24279e860fd71"
+  },
+  "figures/fig21_density_matrix_eigenvalues.pdf": {
+   "bytes": 20660,
+   "sha256": "7cfee18e06d90b3429b3591dcf953dbd699beb7990da67b05b42dae438fde773"
+  },
+  "figures/fig21_density_matrix_eigenvalues.png": {
+   "bytes": 141820,
+   "sha256": "bead11a5d73aa97eac65d183d3c81fa90fbfc921c61fc486ad25d5c18ccae00b"
+  },
+  "figures/fig22_density_matrix_gallery.json": {
+   "bytes": 731,
+   "sha256": "106d4bf15f8ed5b35851a4e38f35b41a55833992e2cc6ff43d84dfde9b9f62db"
+  },
+  "figures/fig22_density_matrix_gallery.pdf": {
+   "bytes": 21109,
+   "sha256": "f27af493305bb8d376196208656375297a4e47a44bf9c12e3851555b92988dcf"
+  },
+  "figures/fig22_density_matrix_gallery.png": {
+   "bytes": 152078,
+   "sha256": "7da623e41bf26ecd7e3780473535efff7f154eaa55788fa78da6be5c0949eb56"
+  },
+  "figures/fig23_mutual_information_purity.json": {
+   "bytes": 601,
+   "sha256": "7c5746a224924efae82074f5bd8761d571ac99adc0ac40339f6952442d9d9f0e"
+  },
+  "figures/fig23_mutual_information_purity.pdf": {
+   "bytes": 23616,
+   "sha256": "edf5d07d8e164450d572cd99e942e06a76d86a328736bb2c4c183da4e0e97121"
+  },
+  "figures/fig23_mutual_information_purity.png": {
+   "bytes": 178427,
+   "sha256": "e0b57d96e4be8d5f592dfd1322373fc757de082888451133c4642dbdc57d19b1"
+  },
+  "figures/fig24_thermofield_pair_entropy.json": {
+   "bytes": 845,
+   "sha256": "94064bcacebadfb7950cab611efc51e72bb29a9626e9aee16cd0c25c92cf80ea"
+  },
+  "figures/fig24_thermofield_pair_entropy.pdf": {
+   "bytes": 24324,
+   "sha256": "12a296dea047c29c7f60f3f8e6b9c7eaf117f9149f7bfcb0043410e05476b4f8"
+  },
+  "figures/fig24_thermofield_pair_entropy.png": {
+   "bytes": 197940,
+   "sha256": "bb0cd370581152a0cded12c7522112c47bb4ca3b7f2551edcd1bb3fac85dc0d0"
+  },
+  "figures/fig25_pair_emission_model.json": {
+   "bytes": 823,
+   "sha256": "3ae937d6a8c14bd4f7faf32d71d77145b3f8f3d61625a9fdfe18f586f595e08d"
+  },
+  "figures/fig25_pair_emission_model.pdf": {
+   "bytes": 23459,
+   "sha256": "8f96a3c5916566fd73135a5107bcf5aa3fd31873496ca7027b960ecbd129631b"
+  },
+  "figures/fig25_pair_emission_model.png": {
+   "bytes": 178335,
+   "sha256": "9923f94ea27de17f9043aae461a9a751fa8dc078968ac91306a05398007470a8"
+  },
+  "figures/fig26_lattice_entanglement.json": {
+   "bytes": 1340,
+   "sha256": "17f801a75af4b31c3acb3ceebcb45459568afad65d1964d5f0553403273bcb82"
+  },
+  "figures/fig26_lattice_entanglement.pdf": {
+   "bytes": 30774,
+   "sha256": "544fadeaef92c5574a6039d678ba8fc761e24eb4bda7f9240e5f7d8814352319"
+  },
+  "figures/fig26_lattice_entanglement.png": {
+   "bytes": 355865,
+   "sha256": "430d7e1150956a1b62bd971d53b8727dbe44779e879f2fb1030ab802fa6eaf5e"
+  },
+  "figures/fig27_page_curves_dimensions.json": {
+   "bytes": 774,
+   "sha256": "6a166a0da559364089aba8c53d7d3ba59cde183c24627eb4a4447e429a93bc8c"
+  },
+  "figures/fig27_page_curves_dimensions.pdf": {
+   "bytes": 24057,
+   "sha256": "475f7d4f88b7403cc4cb519c70107858f24623e7531ddb1b4e0485e99dff8522"
+  },
+  "figures/fig27_page_curves_dimensions.png": {
+   "bytes": 201782,
+   "sha256": "f3fab7c8ecec5a542d393b147d4d31e63a391b53780ee3a1e06d8bdfa2472353"
+  },
+  "figures/fig28_page_curve_ensembles.json": {
+   "bytes": 866,
+   "sha256": "c0daf505ff6aa62bbc4006f78d4f8810be18919467d70389ea0e83b46f12e3e2"
+  },
+  "figures/fig28_page_curve_ensembles.pdf": {
+   "bytes": 24393,
+   "sha256": "b06730a88f4595de513f3d1145e9f8a9dd99e2bba72971033e6d3b860f5a3cae"
+  },
+  "figures/fig28_page_curve_ensembles.png": {
+   "bytes": 297412,
+   "sha256": "11c3fc1c362874d3fbf1e5f85a2926cee044e9ecfc1ab833030c6e826d14aaec"
+  },
+  "figures/fig29_hawking_vs_page_reference.json": {
+   "bytes": 628,
+   "sha256": "95543ed118a9972f33100fe477a5a5798a0fcb75ae278b994604b29a65c9e243"
+  },
+  "figures/fig29_hawking_vs_page_reference.pdf": {
+   "bytes": 18226,
+   "sha256": "b27328bbafe0fe6c15c130f99f370040aaac43336f0d15bd02c5ba51b17c424b"
+  },
+  "figures/fig29_hawking_vs_page_reference.png": {
+   "bytes": 118308,
+   "sha256": "91dd5134b5de56c7a301d908e8f5e76e76f9a48a550e6da607b840239bc7a862"
+  },
+  "figures/fig30_renyi_entropy_vs_index.json": {
+   "bytes": 651,
+   "sha256": "081f8eaf9bdece35820378ec65b950bdd85997c007c4f5a72582b5ff78634e48"
+  },
+  "figures/fig30_renyi_entropy_vs_index.pdf": {
+   "bytes": 21979,
+   "sha256": "0c2ccb2bb08bbf587a8cead65604df42e25f01a502d49e90776d368533ed1062"
+  },
+  "figures/fig30_renyi_entropy_vs_index.png": {
+   "bytes": 110467,
+   "sha256": "8a08033f1fff2a7bc818ce2c538c42f01d0a37464a6263bed4ed1b5eff8afae7"
+  },
+  "figures/fig31_replica_vs_direct_entropy.json": {
+   "bytes": 916,
+   "sha256": "a30b4be8f613a5597ea5e01f4a2e723ff9bfc4397afa8e4c9949d9b544daf7ad"
+  },
+  "figures/fig31_replica_vs_direct_entropy.pdf": {
+   "bytes": 24656,
+   "sha256": "2f9344a05c8c87622572287220fa740ad55d30180046d16d7ee7121d9810eb9c"
+  },
+  "figures/fig31_replica_vs_direct_entropy.png": {
+   "bytes": 205684,
+   "sha256": "7def4043af04878d90fd70c4bb67fd400f463a3c5dcf2c66a708c1e98ad575c3"
+  },
+  "figures/fig32_unitary_vs_nonunitary_evaporation.json": {
+   "bytes": 1110,
+   "sha256": "cc6926dcba002a242e2aa660a1b98def47e5456b986c02e1d99842600cb514b2"
+  },
+  "figures/fig32_unitary_vs_nonunitary_evaporation.pdf": {
+   "bytes": 22610,
+   "sha256": "72b02f4ecc0794c663255d04abe9e47861ce92510870b3698c92ba823c899b96"
+  },
+  "figures/fig32_unitary_vs_nonunitary_evaporation.png": {
+   "bytes": 228063,
+   "sha256": "444727d978cf5c3ac993e507f06c7cf0b909248496b7d5209bf0a253ceda448d"
+  },
+  "figures/fig33_entanglement_spectrum_evolution.json": {
+   "bytes": 612,
+   "sha256": "4a6a24f01f9d7a15b65eea0feeafe8a1028353e6be0146eb242c75c835fffc2b"
+  },
+  "figures/fig33_entanglement_spectrum_evolution.pdf": {
+   "bytes": 23199,
+   "sha256": "5ae518964ac1ef8a6cbdc7c119b04120b8d82296914d10d5f0c714aa605567b9"
+  },
+  "figures/fig33_entanglement_spectrum_evolution.png": {
+   "bytes": 162727,
+   "sha256": "70ca3dac65742c61646587c9ebf959cc575390f9eb702581555d0f0b520d75ac"
+  },
+  "figures/fig34_generalized_entropy_branches.json": {
+   "bytes": 946,
+   "sha256": "51c59f80ae49bb887edf2239382213ddf66b203cf672cb5fba804afcf521047e"
+  },
+  "figures/fig34_generalized_entropy_branches.pdf": {
+   "bytes": 23239,
+   "sha256": "8e76327e7b168401d7c2a96f27fc5c5a7f3d9bb7f30e670784163b5e32636e15"
+  },
+  "figures/fig34_generalized_entropy_branches.png": {
+   "bytes": 282083,
+   "sha256": "24067db9917847cff3f2ebdc69981b6aad64f9480c7e2e14d9be6c42036ddd59"
+  },
+  "figures/fig35_island_parameter_study.json": {
+   "bytes": 788,
+   "sha256": "3924fd9102816a1107892ea01946785242758fa3d68294b6533dc10e9f1315bc"
+  },
+  "figures/fig35_island_parameter_study.pdf": {
+   "bytes": 25864,
+   "sha256": "533b63ae0f8eb3aa4fd915635dc8bd28f1afc48ad9f8bb335620691afec77884"
+  },
+  "figures/fig35_island_parameter_study.png": {
+   "bytes": 286950,
+   "sha256": "aac489fd8db67d55797cb68816547ec9a8de0d968b565ad99bff6c5b208f1b49"
+  },
+  "figures/fig36_holographic_entropy_ads3_btz.json": {
+   "bytes": 1198,
+   "sha256": "5f62bd9db25092efb98e4b77d0a5efe0a63cdc284cfcfcc98b035a6c3f290124"
+  },
+  "figures/fig36_holographic_entropy_ads3_btz.pdf": {
+   "bytes": 28610,
+   "sha256": "46ad334069f1e655e7ab61b10f53c04ea1532ead7d63757a946932c75ad39ce9"
+  },
+  "figures/fig36_holographic_entropy_ads3_btz.png": {
+   "bytes": 235308,
+   "sha256": "7cf04c351edac5587855766aef196c584d058b049ed9d2171a4c3a9a7bdeeee0"
+  },
+  "figures/fig37_scrambling_otoc_entanglement.json": {
+   "bytes": 915,
+   "sha256": "e959eae719dd268d08ed9d88858c7c1cd27a26726ecb668375e59c88d3887326"
+  },
+  "figures/fig37_scrambling_otoc_entanglement.pdf": {
+   "bytes": 23719,
+   "sha256": "2cdc3934bb2a9626c1af6c9ac8c67784baf81ed03238f11e7ac21ba2cb134c42"
+  },
+  "figures/fig37_scrambling_otoc_entanglement.png": {
+   "bytes": 292563,
+   "sha256": "00faf51d0b2ad714fd97434e5f34f356fe40c34f70ae490f494f6d8ba6f4e3b0"
+  },
+  "figures/fig38_quantum_error_correction.json": {
+   "bytes": 1227,
+   "sha256": "e4d418209991d3e797ddcaa7b73c4fe2636ee3ce2714c92a3e9b477715de51ed"
+  },
+  "figures/fig38_quantum_error_correction.pdf": {
+   "bytes": 24797,
+   "sha256": "2791cbc49399ade32eb08bb6ce10526b42d513ab044284d2301eaa734389fd80"
+  },
+  "figures/fig38_quantum_error_correction.png": {
+   "bytes": 277166,
+   "sha256": "dd731f14fc56d5a0a5f8719bd73a7002b635b2571cff5d91aa85160c1ceff76e"
+  },
+  "figures/manifest.json": {
+   "bytes": 32397,
+   "sha256": "5cf7c4333d1d24e1b58b89d9a0777d56fcf4273aae83c3fe8ef8ff0dac97ba94"
+  },
+  "pyproject.toml": {
+   "bytes": 1274,
+   "sha256": "51fd891bee45b8d809b11720905abdd6218c0cdf1c6a975d26ab2cbf0ba2fee2"
+  },
+  "reports/README.md": {
+   "bytes": 167,
+   "sha256": "d3dc065410f6c04382a15f1837b4b2f9055e1568e733025cc2e48fb2f23a39dc"
+  },
+  "reports/black_hole_statistical_mechanics_report.md": {
+   "bytes": 7263,
+   "sha256": "f07ab88413b1caacf99686b13d1dae180cdddcfd2474401cede722a1111230f7"
+  },
+  "requirements.txt": {
+   "bytes": 64,
+   "sha256": "9c2d2031143ba97438d6304bf9e6cc9153b0c1cc5535c48490667c561dff6953"
+  },
+  "scripts/generate_figures.py": {
+   "bytes": 315,
+   "sha256": "ba7a9c7c316fa2203f26ae90674cdc24744d7ef67116118f6cac3a29163c9805"
+  },
+  "scripts/package_zip.py": {
+   "bytes": 1698,
+   "sha256": "48f99a552386c3423815fe0a8824da9e36ee58a0109a3c684c8c78776f816a81"
+  },
+  "scripts/quickstart.py": {
+   "bytes": 1196,
+   "sha256": "f6e2aa19797840a8f4d86e851de53c30a4790057df593106daa22c42e03b2e4a"
+  },
+  "scripts/run_all_experiments.py": {
+   "bytes": 926,
+   "sha256": "d16f58db53b450ca6323879e726a44906f00e9b703f3c5b87c26d12a1ab49717"
+  },
+  "scripts/run_experiment.py": {
+   "bytes": 764,
+   "sha256": "ef2bfc1c6fcbbe036bb1a107774ac55c4994e42745c6a3fa3c640dd3d3579e00"
+  },
+  "scripts/validate_results.py": {
+   "bytes": 2785,
+   "sha256": "71f0adc78917b6b8d193fb170137c4a49bf2ec03a8a2e8aac59c6a08c3c93c16"
+  },
+  "src/bhstatmech/__init__.py": {
+   "bytes": 395,
+   "sha256": "db176e39f5ded195168444b254283b4474c1a144a773e792f4fc90e57fb392e9"
+  },
+  "src/bhstatmech/config.py": {
+   "bytes": 858,
+   "sha256": "dcf28b0583cdf449c262158cc3f71d32bffa063992016948140373edaa12db84"
+  },
+  "src/bhstatmech/constants.py": {
+   "bytes": 2263,
+   "sha256": "56dff8c97f6011bc2dec54b90216e90e9aab6a7eca3a296e8fb7528afbae123a"
+  },
+  "src/bhstatmech/entanglement/__init__.py": {
+   "bytes": 482,
+   "sha256": "592aef4cf45397a5fedb49914318ff85503299dd8e8b15722534345a803da075"
+  },
+  "src/bhstatmech/entanglement/horizon.py": {
+   "bytes": 3979,
+   "sha256": "a803903228dad01aaeedb8aba7f0b897ff81d7e6bbf817ccfa0ee88ee0f80088"
+  },
+  "src/bhstatmech/entanglement/measures.py": {
+   "bytes": 3132,
+   "sha256": "fd3e20e244186c084930abb536a668e1695ffaf19d3e0dec3309cf8e9fe1ea94"
+  },
+  "src/bhstatmech/error_correction/__init__.py": {
+   "bytes": 345,
+   "sha256": "1c9927a2b0c73841d5c73592a1036bbc7bc5a14be615194755abfd6c6dcc84f5"
+  },
+  "src/bhstatmech/error_correction/codes.py": {
+   "bytes": 5660,
+   "sha256": "4a8eed1cae568b75a3a3881c3097b182cd1cdabc72ff630487e2ecc78827e62e"
+  },
+  "src/bhstatmech/evaporation/__init__.py": {
+   "bytes": 364,
+   "sha256": "f328dfd1664af31dac5ba423c98acaf61954a787f929e09df046f836977d5d74"
+  },
+  "src/bhstatmech/evaporation/mass_loss.py": {
+   "bytes": 5401,
+   "sha256": "23cb2241209b7ff9e98b3c606c93975420bfddb19002cd5dc5569d890193d699"
+  },
+  "src/bhstatmech/evaporation/unitary_toy.py": {
+   "bytes": 4993,
+   "sha256": "2252be62aff7cceea9e169eb54ffceebd5aa5a4ce8580214c764c2e68f455e8d"
+  },
+  "src/bhstatmech/exceptions.py": {
+   "bytes": 682,
+   "sha256": "c05c5e8697c03441bfbb5237895e234ce62d4efc5e22971759d7608dd3e2aae8"
+  },
+  "src/bhstatmech/generalized_entropy/__init__.py": {
+   "bytes": 169,
+   "sha256": "73aa9771ccb71f32fd4c883d2f778396f33d8167bafc576cc6ce33bd3fefbb6a"
+  },
+  "src/bhstatmech/generalized_entropy/toy_model.py": {
+   "bytes": 5291,
+   "sha256": "7e5fe42f6aa0e20d46b571747f47f7856aa7f0fd6a68b4a83a44a0e94da2079c"
+  },
+  "src/bhstatmech/hawking_radiation/__init__.py": {
+   "bytes": 621,
+   "sha256": "522c890e8f7100bcf09d76dd6c6d6ada81e243379406050004f0ddc2360b94f2"
+  },
+  "src/bhstatmech/hawking_radiation/greybody.py": {
+   "bytes": 6826,
+   "sha256": "e25d04b5161a47e67390c1f61906e5875aba4291e6976892f28eb639b500404e"
+  },
+  "src/bhstatmech/hawking_radiation/spectra.py": {
+   "bytes": 2937,
+   "sha256": "6364459cf2289ffba309e3817742984dcef4c20f6715d21b9acc1b3a3f6d0c81"
+  },
+  "src/bhstatmech/holography/__init__.py": {
+   "bytes": 324,
+   "sha256": "210cdf5e9897a45f187a3df496f5d599e31431f19c3dafbf53c076a8224d5306"
+  },
+  "src/bhstatmech/holography/ryu_takayanagi.py": {
+   "bytes": 4992,
+   "sha256": "aa632083fe9014b513b6e31a9913ef13fbfb8b85064998f2f7c251a482497413"
+  },
+  "src/bhstatmech/lattice_models/__init__.py": {
+   "bytes": 328,
+   "sha256": "c20bfa1db7e3057c64b6942de6ebe22e3e01da4d6ab8d0bc9af315a4e179c931"
+  },
+  "src/bhstatmech/lattice_models/harmonic_chain.py": {
+   "bytes": 4237,
+   "sha256": "a571092990050c88486fec028adff6c66470c4c9b08a20fd271b558e88bce551"
+  },
+  "src/bhstatmech/numerical_methods/__init__.py": {
+   "bytes": 539,
+   "sha256": "f5379edeead2eeb9204203bdbc2ce6408d4dee58732e04a8f4c3c30dedc1b9d4"
+  },
+  "src/bhstatmech/numerical_methods/finite_difference.py": {
+   "bytes": 1284,
+   "sha256": "efe88cf3a31fe7c805a3c72a1ee231c25c20f8fe7aeeb35a18a6e25600bd187d"
+  },
+  "src/bhstatmech/numerical_methods/rng.py": {
+   "bytes": 643,
+   "sha256": "98e055c49ae1b29e4f09105d6ac9930fec7dcd21a2af41a99ab70ad42fcd4daa"
+  },
+  "src/bhstatmech/numerical_methods/solvers.py": {
+   "bytes": 2252,
+   "sha256": "bf01adee58e33f5a7a7356b60aee1d177763385279e0ade0eb7a9de2b0ca633a"
+  },
+  "src/bhstatmech/page_curve/__init__.py": {
+   "bytes": 320,
+   "sha256": "7ba250875023e28b764b7e5f801ff29a62f39f7ec35fb181776c7f668f61fbfa"
+  },
+  "src/bhstatmech/page_curve/page.py": {
+   "bytes": 3329,
+   "sha256": "b4e6230b8872a0e706b755c879b1df4c2a4bb4eb251c2b0bfee3833dc19b2bca"
+  },
+  "src/bhstatmech/quantum_states/__init__.py": {
+   "bytes": 944,
+   "sha256": "51439dc70a081163181c09e1303330a661802bbea400ab2083edb5de481cbccb"
+  },
+  "src/bhstatmech/quantum_states/canonical.py": {
+   "bytes": 2471,
+   "sha256": "0ece588c9dcc0ca9faf02a9f97ad10496d47059149d449bcae8047361f47f969"
+  },
+  "src/bhstatmech/quantum_states/core.py": {
+   "bytes": 5371,
+   "sha256": "1e248b44242841317ce79cc52cef5c25bf7dfa94d0ced1b83f5104b79dabdc05"
+  },
+  "src/bhstatmech/quantum_states/entropy.py": {
+   "bytes": 3429,
+   "sha256": "a0098948f9eb22ad4a30a71e4205d2fefd0fb45547fd12ffbf84eb6cdf0da5ec"
+  },
+  "src/bhstatmech/quantum_states/random_states.py": {
+   "bytes": 2196,
+   "sha256": "6634e2a15041307aa54e848f2ec818fbb266adc47056df462a633db2b2b4bc95"
+  },
+  "src/bhstatmech/replica_methods/__init__.py": {
+   "bytes": 259,
+   "sha256": "7fe1e3b21e4315dd64edcae93eccc55c2072b6e88c231b6b5467be051bc77a0f"
+  },
+  "src/bhstatmech/replica_methods/replica.py": {
+   "bytes": 2270,
+   "sha256": "23ae0f398591b01e84902ff2cc8899e7120ad9dae58e3cf5d39d1f8dc27a9fa9"
+  },
+  "src/bhstatmech/scrambling/__init__.py": {
+   "bytes": 219,
+   "sha256": "62819c58a9b015a9ab103978af8585bba33701f854bab0e9b0a895743e393841"
+  },
+  "src/bhstatmech/scrambling/otoc.py": {
+   "bytes": 4277,
+   "sha256": "37413015577145724644d84d18f78b272153e470a21a33634cb66fb7c3afbd04"
+  },
+  "src/bhstatmech/spacetimes/__init__.py": {
+   "bytes": 338,
+   "sha256": "b23f71bacf4e47cf862f0b82764035ff3b022eb85335c719ff5d421eaf8c9a27"
+  },
+  "src/bhstatmech/spacetimes/natural.py": {
+   "bytes": 10102,
+   "sha256": "fc3a8295bc6f6f818a050e0f6bf1de38b2967442945d5e83fb1e7188c2a409de"
+  },
+  "src/bhstatmech/spacetimes/schwarzschild.py": {
+   "bytes": 8524,
+   "sha256": "4799e76f958d28277795b38db926dfb1aaab768f00bfa5d377cd56bbd918baa7"
+  },
+  "src/bhstatmech/statistical_mechanics/__init__.py": {
+   "bytes": 430,
+   "sha256": "36800e9fefabc92609fbb90b572fac55012aefd03ceb0d38ba45daadf1b9b24b"
+  },
+  "src/bhstatmech/statistical_mechanics/ensembles.py": {
+   "bytes": 4730,
+   "sha256": "9433ca39c686b4bad74ca078f90843b05ecdaa4645009540ed5e01c96990f36f"
+  },
+  "src/bhstatmech/thermodynamics/__init__.py": {
+   "bytes": 504,
+   "sha256": "61cbedd576b52761db0eda40d5404bd0c6e9e176e03fda43a33f2e6294f3b4ad"
+  },
+  "src/bhstatmech/thermodynamics/first_law.py": {
+   "bytes": 2138,
+   "sha256": "0945a63922ad69e74e84f2b48e0e55f5f6c9c3c2be9e1f50d0b43b5fa8c8cd78"
+  },
+  "src/bhstatmech/thermodynamics/laws.py": {
+   "bytes": 3413,
+   "sha256": "be775273b5d4a26bb5f97f0519a40581ecb9452f9b43ec35984a90126770a7a6"
+  },
+  "src/bhstatmech/units.py": {
+   "bytes": 6182,
+   "sha256": "a1d25dd75574109f650a94fb42201f25fa89058e1c2968035bb1e81c52b3c034"
+  },
+  "src/bhstatmech/visualization/__init__.py": {
+   "bytes": 238,
+   "sha256": "a7ab7e82a62b78d6a6802c1620c5070b0ddbdefef718041f20541423b01cca81"
+  },
+  "src/bhstatmech/visualization/style.py": {
+   "bytes": 2833,
+   "sha256": "42308fd324572339b091051bf621e1a6bd5903ef78c5289ad25ef5b8c6a2efa0"
+  },
+  "tests/conftest.py": {
+   "bytes": 102,
+   "sha256": "49ec088ffb2f28e346215dd27eab66709a5efcf6b99e7d40068d3f03a5378568"
+  },
+  "tests/test_constants_and_units.py": {
+   "bytes": 2689,
+   "sha256": "f1ea8e0a531f41a9b1d22112bd1c4dcc38983645ca220cecd9c336b9be3826c3"
+  },
+  "tests/test_density_matrices.py": {
+   "bytes": 7519,
+   "sha256": "4927d8311fc3a28fad5da3c5eff3e3a023f011936656b99c868daba6871855ec"
+  },
+  "tests/test_entanglement.py": {
+   "bytes": 6173,
+   "sha256": "f3b851cfb68ef3ae11179db07b69a203e96d75e18fb37a6a5cc0773f519606fd"
+  },
+  "tests/test_greybody.py": {
+   "bytes": 5384,
+   "sha256": "948d0083202d812e18ea11b6fda6673ba2a5f1eaffc34ee362db471c0f8ea5c4"
+  },
+  "tests/test_islands_and_holography.py": {
+   "bytes": 5596,
+   "sha256": "8939d3685e91a1822099474ce19ddc0cad3967cf5f59459675ee1049523a0139"
+  },
+  "tests/test_lattice_models.py": {
+   "bytes": 4254,
+   "sha256": "1267933fbf5214811515544aae6eeae282c8919ae822f5383dcd38e6b4a6ad1f"
+  },
+  "tests/test_numerical_convergence.py": {
+   "bytes": 3181,
+   "sha256": "0cf21cdcef6009b6a62dc049d89f53aefa0142eb0136714f22b0bea1458d536a"
+  },
+  "tests/test_page_curve.py": {
+   "bytes": 3655,
+   "sha256": "4f48342a1bdc2688348247f372d48c57df06c6821da0033c38e08fe44fee683f"
+  },
+  "tests/test_quickstart.py": {
+   "bytes": 516,
+   "sha256": "42ce7fc0420e83369b2705965c554d497eb10c59cedbb26c8cc1632ff55f0860"
+  },
+  "tests/test_replica_methods.py": {
+   "bytes": 2229,
+   "sha256": "6ac60addb77b71e4503630a660eeaa053e94428506d9a260683d0ba0f4a0e185"
+  },
+  "tests/test_scrambling_and_qec.py": {
+   "bytes": 5027,
+   "sha256": "a7ed24be0051a0dce9f420253a3289c14dd4549901893102b1d3200056084fa6"
+  },
+  "tests/test_spacetimes.py": {
+   "bytes": 7060,
+   "sha256": "f7ffd508c8ae3041acf56211243e32521b638bddd4507cc83dd07315299b8628"
+  },
+  "tests/test_statistical_mechanics.py": {
+   "bytes": 2845,
+   "sha256": "df7fdf405d4d745ed40f9fe442e44fd522e57a1e2a6ae5bc1884537bc1518c61"
+  },
+  "tests/test_thermodynamics.py": {
+   "bytes": 6295,
+   "sha256": "76895b6389056524ab242c8255f360e5e1c893ca1ccd8dc338332193cb105938"
+  },
+  "tests/test_unitarity.py": {
+   "bytes": 4127,
+   "sha256": "30d3c47525da1c0dd72959a1f3539f2bcbe74445120b89c74b29baacffd652a1"
+  }
+ }
+}

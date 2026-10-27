@@ -1,0 +1,12 @@
+{
+  "name": "fig33_entanglement_spectrum_evolution",
+  "png": "fig33_entanglement_spectrum_evolution.png",
+  "pdf": "fig33_entanglement_spectrum_evolution.pdf",
+  "generating_script": "experiments/10_random_unitary_evaporation.py",
+  "package_version": "0.1.0",
+  "seed": 20261022,
+  "parameters": {
+    "n_qubits": 10
+  },
+  "caption": "Entanglement spectrum of the radiation for one seed of the unitary toy. The number of nonzero eigenvalues is bounded by min(2^k, 2^(N-k)); the effective rank exp(S) follows it up to the Page point and then decreases, which is the spectral statement of the Page turnover."
+}

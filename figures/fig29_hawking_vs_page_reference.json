@@ -1,0 +1,12 @@
+{
+  "name": "fig29_hawking_vs_page_reference",
+  "png": "fig29_hawking_vs_page_reference.png",
+  "pdf": "fig29_hawking_vs_page_reference.pdf",
+  "generating_script": "experiments/09_page_curve.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "N": 12
+  },
+  "caption": "The monotonic semiclassical reference S = k ln 2 (each emitted quantum is maximally entangled with a partner that stays out of reach) violates the dimension bound for k > N/2. The entropy of the radiation in any globally pure state of the finite system must turn over at or before the Page point, because S(R) = S(B) <= (N-k) ln 2."
+}

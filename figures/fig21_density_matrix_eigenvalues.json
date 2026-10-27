@@ -1,0 +1,15 @@
+{
+  "name": "fig21_density_matrix_eigenvalues",
+  "png": "fig21_density_matrix_eigenvalues.png",
+  "pdf": "fig21_density_matrix_eigenvalues.pdf",
+  "generating_script": "experiments/06_quantum_states.py",
+  "package_version": "0.1.0",
+  "seed": 20261022,
+  "parameters": {
+    "d": 64,
+    "m": 16,
+    "n": 64,
+    "n_samples": 120
+  },
+  "caption": "Eigenvalue distributions of random density matrices. (a) Hilbert-Schmidt measure (G G^dagger normalised, square Ginibre G) for d = 64 follows the Marchenko-Pastur law with c = 1 (support [0, 4]). (b) The reduced state of a Haar-random 16 x 64 bipartite pure state follows Marchenko-Pastur with c = m/n = 1/4 (support [1/4, 9/4]); the gap at zero is the signature of a subsystem much smaller than its complement (Page regime)."
+}

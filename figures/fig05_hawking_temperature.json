@@ -1,0 +1,15 @@
+{
+  "name": "fig05_hawking_temperature",
+  "png": "fig05_hawking_temperature.png",
+  "pdf": "fig05_hawking_temperature.pdf",
+  "generating_script": "experiments/02_thermodynamic_laws.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "M_range_kg": [
+      100000000.0,
+      1e+33
+    ]
+  },
+  "caption": "Hawking temperature versus mass for Schwarzschild black holes. A black hole is hotter than the 2.725 K CMB only below about 4.5e+22 kg; stellar-mass holes (T ~ 1e-7 K) absorb more than they radiate in the present universe."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "fig25_pair_emission_model",
+  "png": "fig25_pair_emission_model.png",
+  "pdf": "fig25_pair_emission_model.pdf",
+  "generating_script": "experiments/07_horizon_entanglement.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "N": 8,
+    "theta": [
+      0.7853981633974483,
+      0.3
+    ]
+  },
+  "caption": "N = 8 independent horizon pairs. Radiation R_k is the first k outgoing qubits; the interior holds all N partners. S(R_k) = k S_pair and I(R_k:interior) = 2 S(R_k): the emission entropy grows monotonically because the model never lets the radiation interact with the interior, i.e. it encodes the semiclassical (Hawking) assumption and has no mechanism to return information. Compare Figs 28-31, where unitary dynamics among the remaining degrees of freedom produces a turnover."
+}

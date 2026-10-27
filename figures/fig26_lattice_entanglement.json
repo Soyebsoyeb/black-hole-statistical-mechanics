@@ -1,0 +1,21 @@
+{
+  "name": "fig26_lattice_entanglement",
+  "png": "fig26_lattice_entanglement.png",
+  "pdf": "fig26_lattice_entanglement.pdf",
+  "generating_script": "experiments/08_lattice_entanglement.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "N": 256,
+    "m": 0.001,
+    "refine_N": [
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "bc_N": 128
+  },
+  "caption": "Ground-state entanglement entropy of a block of the massless-limit harmonic chain (Gaussian state, symplectic spectrum of the block covariance). (a) The slope against ln[(N/pi) sin(pi l/N)] is 0.2970, about 11% below the CFT value c/3 = 1/3 (c = 1). The deficit is an infrared effect: the correlation length 1/(ma) = 1000 sites is only 3.9 times the chain length, and diagnostics outside this script show the fitted slope falls further for larger ma (about 0.14 at ma = 0.01, N = 256) and approaches 1/3 as m N -> 0. (b) At fixed physical size the entropy grows as 0.3333 ln(1/a): the lattice spacing regulates the ultraviolet divergence. (c) Dirichlet/Neumann ends change the entropy of an end block (one entangling point instead of two) but not the interior block far from the boundary. (d) The IR mass lowers the entropy; finite-size corrections shrink as N grows. This is a lattice-field result, not a black-hole entropy calculation."
+}

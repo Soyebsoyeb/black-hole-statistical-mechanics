@@ -1,0 +1,12 @@
+{
+  "name": "fig23_mutual_information_purity",
+  "png": "fig23_mutual_information_purity.png",
+  "pdf": "fig23_mutual_information_purity.pdf",
+  "generating_script": "experiments/06_quantum_states.py",
+  "package_version": "0.1.0",
+  "seed": null,
+  "parameters": {
+    "p_grid": 201
+  },
+  "caption": "Werner states. Mutual information is non-zero for every p > 0 (it counts classical and quantum correlations) whereas negativity and concurrence vanish for p <= 1/3 (computed threshold on the grid: p = 0.335). Purity decreases monotonically as p decreases; the global entropy is 0 only at p = 1."
+}
